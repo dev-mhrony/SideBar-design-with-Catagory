@@ -312,4 +312,102 @@ body{
   text-align: center;
   justify-content: center;
   padding-top: 15px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.deshbord_section{
+  display: flex;
+}
+
+.resent_work{
+  width: 900px;
+  height: 300px;
+  background: #fff;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.resent_msg{
+  width: 450px;
+  height: 300px;
+  background: #fff;
+  margin: 20px;
+  border-radius: 10px;
+  
+}
+
+
+
+.clint_one img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+
+
+
+.deshbord_corrent_message{
+  width: 400px;
+  height: 100px;
+  padding: 20px;
+  margin: 20px;
+  justify-content: center;
+
+}
+
+.clint_one{
+  background: #f3f4f7;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px rgb(201, 201, 201);
+  padding: 20px;
+}
+
+.corrent_name{
+  margin-top: -50px;
+  margin-left: 50px;
+  text-decoration: bold;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.corrent_msg{
+  padding: 20px;
+  text-align: justify;
+  margin-top: -12px;
+}
+
+.see_message{
+  color: deeppink;
+  font-style: normal;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+
+.db_work_section{
+  width: 250px;
+  height: 180px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 2px 2px 20px rgb(201, 201, 201);
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.db_work_section img{
+  width: 200px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.db_work_section p{
+  color: rgb(8, 2, 24);
+  text-decoration: bold;
+  
 }
