@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_msg{
+    width: 100%;
+    height: 100%;
+    background: #E4E9F7;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 2px 2px 20px rgba(186, 186, 186, 0.404);
+    margin: 10px;
+}
+
+.user_msg{
+    width: 420px;
+    height: 100%;
+    background: #E4E9F7;
+    margin: 30px;
+    box-shadow: 2px 2px 30px #fdfdfd8c;
+    display: block;
+    border: none;
+}
+
+.user_msg_box{
+    
+    width: 100%;
+    height: 100%;
+    background: #E4E9F7;
+    margin: 30px;
+    box-shadow: 2px 2px 30px #fdfdfd8c;
+}
+
+.scearch_input{
+    width: 300px;
+    margin: 50px ;
+    margin-left: 30px;
+    height: 40px;
+    border-radius: 10px;
+    color: rgb(23, 19, 20);
+    border-color: white;
+    padding-left: 20px;
+    font-weight: bold;
+    border: none;
+    
+}
+
+.searchbox{
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    display: block;
+    margin-top: -90px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 345px;
+    margin-right: 25px;
+    box-shadow: 2px 2px 30px #ececec8c;
+    
+    cursor: pointer;
+}
+
+.searchbox:hover{
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 20px white;
+}
+
+.searchbox-icon{
+    font-size: 30px;
+    margin-top: 5px;
+    color: rgb(83, 83, 83);
+
+
+}
+
+.person{
+    width: 45px;
+    height: 80px;
+    background: black;
+}
+
+
+
+.all_clint_msg{
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    padding-bottom: 200px;
+}
+
+.clint_msg{
+    width: 350px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+    background-color: #ffffff;
+    padding: 11px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px white;
+}
+
+.clint_msg img{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.clint_name_and_msg{
+    margin-left: 15px;
+}
+
+.clint_name_and_msg span{
+    color: rgb(80, 79, 79);
+}
+
+.clint_time{
+    padding-left: 43px;
+}
